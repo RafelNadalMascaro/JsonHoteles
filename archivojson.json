@@ -1,0 +1,434 @@
+{
+  "agregadors": [{
+    "agregador_id": "1",
+    "nom_agr": "Agregador1",
+    "cif": "524896523",
+    "email": "agr1@Agregador1.com",
+    "telefon": "368578155"
+  }, {
+    "agregador_id": "2",
+    "nom_agr": "Agregador2",
+    "cif": "257614893",
+    "email": "agr2@Agregador2.com",
+    "telefon": "156874235"
+  }, {
+    "agregador_id": "3",
+    "nom_agr": "Agregador3",
+    "cif": "365851269",
+    "email": "agr1@Agregador1.com",
+    "telefon": "186248354"
+  }],
+
+  "hoteles": [{
+      "id": "0",
+      "nom": "Hotel 1",
+      "estrelles": "1",
+      "telefon": {
+        "valor": "416541981",
+        "codipais": "+34",
+        "pais": "España",
+        "tipustelefon": "telefon fix"
+      },
+      "numEmpleados": "1-30",
+      "mascotes": "No",
+      "distanciacentre": {
+        "valor": "2000",
+        "unitatmesura": "metres"
+      },
+      "serveis": [
+        "wifi"
+      ],
+      "tipus_habitacions": [{
+          "habitacio_id": "1",
+          "nom": "hab1",
+          "llit_individual": "2",
+          "llit_doble": "",
+          "serveis": ["TV", "armari", "dutxa"],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "temporada_alta": false,
+              "preu_base": "22",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "24,2"
+            },
+            {
+              "agregador_id": "3",
+              "nom_agr": "Agregador3",
+              "temporada_alta": false,
+              "preu_base": "21",
+              "comisioPercent": "10",
+              "impostPercent": "12",
+              "moneda": "€",
+              "preu_total": "23,52"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "2",
+          "nom": "hab2",
+          "llit_individual": "",
+          "llit_doble": "1",
+          "serveis": [
+            "minibar", "TV", "armari", "dutxa"
+          ],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "33",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "36,3"
+            },
+            {
+              "agregador_id": "3",
+              "nom_agr": "Agregador3",
+              "tarifa": "alta",
+              "preu_base": "40",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "44"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "4",
+          "nom": "hab4",
+          "llit_individual": "1",
+          "llit_doble": "2",
+          "serveis": [
+            "minibar", "TV", "armari", "banyera", "dutxa"
+          ],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "43",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "47,3"
+            },
+            {
+              "agregador_id": "3",
+              "nom_agr": "Agregador3",
+              "temporada_alta": false,
+              "preu_base": "20",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "22"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "5",
+          "nom": "hab5",
+          "llit_individual": "2",
+          "llit_doble": "2",
+          "serveis": [
+            "minibar", "TV", "armari", "cuina", "banyera"
+          ],
+          "preu": [{
+            "agregador_id": "2",
+            "nom_agr": "Agregador2",
+            "temporada_alta": false,
+            "preu_base": "23",
+            "comisioPercent": "10",
+            "impostPercent": "10",
+            "moneda": "€",
+            "preu_total": "25,3"
+          }],
+          "valoracio": [{
+              "puntuacio": "2",
+              "paginaweb": "Google"
+            },
+            {
+              "puntuacio": "2",
+              "paginaweb": "Booking"
+            }
+          ]
+
+        }
+      ]
+    },
+
+    {
+      "id": "1",
+      "nom": "Hotel 2",
+      "estrelles": "2",
+      "telefon": {
+        "valor": "496498416",
+        "codipais": "+34",
+        "pais": "España",
+        "tipustelefon": "telefon fix"
+      },
+      "numEmpleados": "30-60",
+      "mascotes": "Si",
+      "distanciacentre": {
+        "valor": "1000",
+        "unitatmesura": "metres"
+      },
+      "serveis": [
+        "wifi"
+      ],
+      "tipus_habitacions": [{
+          "habitacio_id": "1",
+          "nom": "hab1",
+          "llit_individual": "",
+          "llit_doble": "2",
+          "serveis": ["TV", "armari", "dutxa"],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "31",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "34,1"
+            },
+            {
+              "agregador_id": "3",
+              "nom_agr": "Agregador3",
+              "tarifa": "alta",
+              "preu_base": "25",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "27,7"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "2",
+          "nom": "hab2",
+          "llit_individual": "1",
+          "llit_doble": "",
+          "serveis": [
+            "minibar", "TV", "armari", "dutxa"
+          ],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "63",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "69,3"
+            },
+            {
+              "agregador_id": "3",
+              "nom_agr": "Agregador3",
+              "tarifa": "alta",
+              "preu_base": "44",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "48,4"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "3",
+          "nom": "hab3",
+          "llit_individual": "2",
+          "llit_doble": "",
+
+          "serveis": [
+            "minibar", "TV", "armari", "banyera"
+          ],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "40",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "44"
+            },
+            {
+              "agregador_id": "2",
+              "nom_agr": "Agregador2",
+              "temporada_alta": false,
+              "preu_base": "19",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "20,9"
+            }
+          ],
+
+
+          "valoracio": [{
+              "puntuacio": "3",
+              "paginaweb": "Google"
+            },
+            {
+              "puntuacio": "2",
+              "paginaweb": "Booking"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "2",
+      "nom": "Hotel 3",
+      "estrelles": "3",
+      "telefon": {
+        "valor": "169894164",
+        "codipais": "+34",
+        "pais": "España",
+        "tipustelefon": "telefon fix"
+      },
+      "numEmpleados": "60-90",
+      "mascotes": "Si",
+      "distanciacentre": {
+        "valor": "500",
+        "unitatmesura": "metres"
+      },
+      "serveis": [
+        "gym",
+        "wifi"
+      ],
+      "tipus_habitacions": [{
+          "habitacio_id": "1",
+          "nom": "hab1",
+          "llit_individual": "2",
+          "llit_doble": "",
+          "serveis": ["TV", "armari", "cuina"],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "temporada_alta": false,
+              "preu_base": "24",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "26,4"
+            },
+            {
+              "agregador_id": "3",
+              "nom_agr": "Agregador3",
+              "temporada_alta": true,
+              "preu_base": "29",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "31,9"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "2",
+          "nom": "hab2",
+          "llit_individual": "",
+          "llit_doble": "1",
+          "serveis": [
+            "minibar", "TV", "armari", "banyera"
+          ],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "33",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "36,3"
+            },
+            {
+              "agregador_id": "3",
+              "nom_agr": "Agregador3",
+              "tarifa": "alta",
+              "preu_base": "40",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "44"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "3",
+          "nom": "hab3",
+          "llit_individual": "2",
+          "llit_doble": "1",
+          "serveis": [
+            "minibar", "TV", "armari", "dutxa"
+          ],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "40",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "44"
+            },
+            {
+              "agregador_id": "2",
+              "nom_agr": "Agregador2",
+              "temporada_alta": false,
+              "preu_base": "19",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "20,9"
+            }
+          ]
+        },
+        {
+          "habitacio_id": "4",
+          "nom": "hab4",
+          "llit_individual": "2",
+          "llit_doble": "1",
+          "serveis": [
+            "minibar", "TV", "armari", "dutxa", "banyera", "cuina"
+          ],
+          "preu": [{
+              "agregador_id": "1",
+              "nom_agr": "Agregador1",
+              "tarifa": "alta",
+              "preu_base": "70",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "77"
+            },
+            {
+              "agregador_id": "2",
+              "nom_agr": "Agregador2",
+              "temporada_alta": true,
+              "preu_base": "80",
+              "comisioPercent": "10",
+              "impostPercent": "10",
+              "moneda": "€",
+              "preu_total": "88"
+            }
+          ],
+          "valoracio": [{
+              "puntuacio": "4",
+              "paginaweb": "Google"
+            },
+            {
+              "puntuacio": "3",
+              "paginaweb": "Booking"
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}
